@@ -31,9 +31,9 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.AddForce(Vector3.right * speed);
         }
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W))
         {
-            rb.AddForce(Vector3.up * 10);
+            rb.AddForce(Vector3.up * 300);
         }
 
      
